@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    font-size: 15px;
+}
+
+.navbar .menunav {
+    padding: 19px 16px !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    width: 100%;
+    overflow: hidden;
+    color: #000;
+    background-color: #fff;
+    justify-content: space-between;
+    display: flex;
+}
+
+.hamburger {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    letter-spacing: 4px;
+    display: block;
+}
+.hamburger .hamburgerimg{
+    max-width: 100%;
+    height: auto;
+}
+.hamburger .le{
+    padding: 12px 24px!important;
+    opacity: 0.60;
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+}
+.aboutcatering{
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutcatering .about{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+.aboutcatering .about .cateringimg{
+    padding: 12px 24px!important;
+    float: left;
+    width: 50%
+}
+.aboutcatering .about .cateringimg img{
+    opacity: 0.75;
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.aboutcatering .about .abouth{
+    padding: 12px 24px;
+    display: block;
+}
+.aboutcatering .about .abouth .aboutitem{
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+}
+.aboutcatering .about .abouth .about-item{
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.aboutcatering .about .abouth .item-about{
+    font-size: 18px;
+}
+.aboutcatering .about .abouth .item-about .span{
+    background-color: #f1f1f1;
+    color: rgb(7, 7, 7);
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.aboutcatering .about .abouth .about-items{
+color: #757575;
+font-size: 18px;
+margin: 18px 0;
+}
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 300px 0 0 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.our-menu{
+    margin-left: auto;
+    margin-right: auto;
+}
+.our-menu .ourmenu{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+.our-menu .ourmenu .cateringmenu{
+    padding: 12px 24px!important;
+    float: right;
+    width: 50%
+}
+.our-menu .ourmenu .cateringmenu .ourimg{
+    opacity: 0.75;
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.our-menu .ourmenu .ourabout {
+    padding: 12px 24px;
+    display: block;
+}
+.our-menu .ourmenu .ourabout .ouritem{
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+}
+.our-menu .ourmenu .ourabout .our-item{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.our-menu .ourmenu .ourabout .item-our{
+    color: #757575!important;
+}
+.contact{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    padding: 0.01em 16px;
+}
+.contact h1{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+}
+.contact P{
+    margin: 25px 0;
+}
+.contact .contactp{
+    font-size: 18px!important;
+    color: #607d8b!important;
+}
+.contact .contactp b{
+    font-weight: bolder;
+}
+.contact form .inputitem{
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+}
+.contact form .button{
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+.navbar .menunav a:hover{
+    background-color: #757575;
+}
+
+
+.contact .button:hover{
+    background-color: #757575!important;
+}
+.smstfyv{
+    font-size: 10px;
+    text-align: end;
+    margin-top: -130px;
+    color: #607d8b;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336; 
+    color: white;
+    width: 400px;
+    margin-left: 650px;
+    margin-top: -100px;
+    font-size: 17px;
+  }
+  
+ 
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  
+  .closebtn:hover {
+    color: black;
+  }
